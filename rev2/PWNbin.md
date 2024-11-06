@@ -9,6 +9,8 @@ After run the chal, it outputs nothing informative
 Looking into the code with ghidra, the condition make it the printf function will display the flag when the local_c = 0.
 We will edit the local_c value to 0 from 1 then we export the file and run again.
 
+![image](https://github.com/user-attachments/assets/ce3e36db-e0ef-4359-b94a-06bda7422b28)
+
 ![image](https://github.com/user-attachments/assets/127b9c82-6ca6-4983-ab5f-0bda5830e2fc)
 
 Run file again and the flag will be display in a base 64 string.
