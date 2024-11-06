@@ -11,7 +11,7 @@ So is time to ghidra it. (ghidra - A tool used for RE)
 
 Look at main function first, everything looks normal except for the xoring() function. 
 
-![image](https://github.com/user-attachments/assets/e8de0769-6fff-4295-bbbc-08294719c474)
+![image](https://github.com/user-attachments/assets/46efcdb9-96ff-4b1f-a1b8-09f5acabc854)
 
 Navigate to xoring() function, we can see the xor formula there ,the formula involves xor local_1f, local_29,int local_10 and int local_c.
 From the formula we can see evrything is converted into bytes with the (byte *) then xor is performed.
@@ -21,6 +21,9 @@ To understand the program i run it in kali and get this output(picture below).
 
 The program just output a weird string.
 So in order to get the flag,we will take local_1f(fZjkMyeQWVmmbk) XOR with the local_29(123456789, you can get this can converting hex to ASCII)
+![image](https://github.com/user-attachments/assets/82fd9183-f5f8-46b1-8e6b-0a50cfa5d8f3)
+
+
 
 And here is the flag
 ![image](https://github.com/user-attachments/assets/53bea60d-71de-4de1-aeda-3137f43e94a1)
