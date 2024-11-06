@@ -27,6 +27,7 @@ So now, we steghide the isThisHowUThoughtUr.jpeg with the passphrase stegsteg, a
 
 
 Open the text file, and we get the flag.
+
 ![image](https://github.com/user-attachments/assets/0b60eeb8-1791-40eb-bf6f-ddac77a41d9d)
 
 Flag: TARUMT{WAiT?ST3g_!$_F0r3N$1c?}
