@@ -21,6 +21,7 @@ To understand the program i run it in kali and get this output(picture below).
 
 The program just output a weird string.
 So in order to get the flag,we will take local_1f(fZjkMyeQWVmmbk) XOR with the local_29(123456789, you can get this can converting hex to ASCII)
+
 ![image](https://github.com/user-attachments/assets/82fd9183-f5f8-46b1-8e6b-0a50cfa5d8f3)
 
 
