@@ -1,18 +1,22 @@
 2nd Forensic challenge given by CoffeeSoDa, we are given an ad1 file.
 
-Open it using FTK Imager, since the name of this chal is Lost But Not Gone, I checked the RecycleBin first.
+### **Open it using FTK Imager**
+Since the name of this challenge is Lost But Not Gone, I checked the RecycleBin first.
 
 ![image](https://github.com/user-attachments/assets/b9265838-bd09-4d16-9116-98180fafd6be)
 
 
-Found a text file with the contents of, secret:bm93X2l0c190aW1lX2Zvcl9maWxlc3Nzc3Mg==
+Found a text file with the contents of, `secret:bm93X2l0c190aW1lX2Zvcl9maWxlc3Nzc3Mg==` .
 
+### **Secret Base64 Decode**
 This is a Base64 code, so decode it and you will get, now_its_time_for_filesssss
 ![image](https://github.com/user-attachments/assets/cbba987e-b6a5-4c1a-bf02-db592cdd47a9)
 
 
 Found a zip file called filess.zip so I'm pretty sure the flag is in here.
 ![image](https://github.com/user-attachments/assets/e2348d23-c2e3-4fad-8adc-98fdae1eb6ef)
+
+### **Unzipping Zip File** 
 
 Got a bit stuck at this point but I thought "Could the secret be the password to the zip file?" 
 So I exported the zip file, and voila, managed to unlock it with the secret.
