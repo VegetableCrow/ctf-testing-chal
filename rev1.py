@@ -1,4 +1,4 @@
-input = b'fZjkMyeQWVmmbk'
+input = b'fZjkMyeQWVmmbk' 
 key = b'123456789'
 
 def xor(input_bytes, key_bytes):
@@ -12,5 +12,5 @@ def xor(input_bytes, key_bytes):
     return decrpyted_bytes.decode('utf-8', errors='ignore') 
 
 
-result = xor(input, key) #input and key is both converted into bytes, for input the read() make it into bytes
+result = xor(input, key) 
 print (result)
