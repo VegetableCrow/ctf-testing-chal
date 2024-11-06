@@ -29,7 +29,7 @@ Or you can just view each file one by one :D (Dont be like me, i was lazy to ope
 ![image](https://github.com/user-attachments/assets/ef7ad940-bcf7-48e8-b5ff-366ccf2d3456)
 
 
-Flag: flag: TARUMT{s0_M@NY_z!p}
+Flag: TARUMT{s0_M@NY_z!p}
 
 
 
