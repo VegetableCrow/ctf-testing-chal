@@ -19,4 +19,5 @@ Run file again and the flag will be display in a base 64 string.
 Convert it into string and get the flag.
 
 **FLAG**
+
 TARUMT{St@T!c_MaKE_l!FE_eZ}
