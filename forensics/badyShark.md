@@ -3,6 +3,7 @@ Forensic challenge by CoffeeSoDa, we are given a pcapng file.
 Since he said this would be an ez challenge, the first place I checked was to export objects.
 
 ### **Export HTTP Objects**
+We will be using Wireshark for this. 
 
 ![image](https://github.com/user-attachments/assets/0480dc93-daf5-44d8-86f9-f07428aa9fdb)
 
