@@ -14,18 +14,34 @@ Judging from the name of the file, this challenge requires us to fix the magic n
 
 The magic number for a gif file is `47 49 46 38`.
 
-### **Modify the Magic Number**
 I'm using the software `HxD` for this. Open the gif file using it.
+Download HxD: https://mh-nexus.de/en/downloads.php?product=HxD20
+
+ <br> 
+ <br> 
+
+As we can see, the starting bytes are not that of a gif file, we need to change that.
+
 ![image](https://github.com/user-attachments/assets/82f843ad-a400-463e-8949-d1bb13331512)
 
 
-As we can see, the starting bytes are not that of a gif file, we need to change that. 
+Here is the proper magic bytes example for a gif file.
+
+![image](https://github.com/user-attachments/assets/411c6f40-2479-45e4-a22f-a0d6cf86066b)
+ <br> 
+ <br> 
+
+### **Modify the Magic Number**
+
 First, I copied the right bytes  `47 49 46 38`, 
 Then, highlight the wrong bytes `6D 61 47 69`, right click, and click `Paste Insert` .
+And then, save the file.
+ <br> 
 ![image](https://github.com/user-attachments/assets/dc24936f-50cb-4cb3-9340-74f62be32560)
 ![image](https://github.com/user-attachments/assets/187bfefb-df26-487e-8ece-4b02c89a6788)
 
-
+ <br> 
+<br> 
 
 ### **Fixed GIF File** 
 And voila, the gif file is fixed. The gif file seems to be made of 2 frames.
